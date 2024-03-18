@@ -1,0 +1,13 @@
+
+.profile-container {
+  display: flex;
+}
+
+.profile-content {
+  flex: 1;
+  padding: 100px 40px;
+  max-width: 600px;
+  width: 100%;
+  margin-left: 120px;
+}
+

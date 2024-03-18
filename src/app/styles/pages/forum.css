@@ -1,0 +1,54 @@
+/* ForumPage.css */
+
+.forum-page-container {
+  display: flex;
+}
+
+.forum-content {
+  flex: 1;
+  padding: 20px;
+  padding-left: 120px;
+}
+
+.search-forum {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-wrapper-forum{
+  max-width: 300px;
+  width: 100%;
+}
+.forum-btns{
+  display: flex;
+  gap: 20px;
+  width: 500px;
+  margin-bottom: 20px;
+}
+.forum-btns-filter{
+  display: flex;
+  gap: 20px;
+}
+.forum-box{
+  width: 100%;
+  display: flex;
+  gap: 40px;
+}
+.forum-cards{
+  width: 70%;
+}
+.forum-categories{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: var(--grey);
+  border-radius: 24px;
+  padding: 20px;
+  height: fit-content;
+}
+
+/* Add more styles as needed */

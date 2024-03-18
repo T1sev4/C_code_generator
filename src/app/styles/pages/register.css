@@ -1,0 +1,23 @@
+/* Register.css */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.register-form {
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+}
+.register-title{
+  font-size: 48px;
+  text-align: center;
+}
+.register-desc{
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}

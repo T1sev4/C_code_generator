@@ -1,0 +1,25 @@
+.detail-container{
+  display: flex;
+}
+
+.detail-content {
+  flex: 1;
+  padding: 100px 0 0 120px;
+  display: flex;
+  gap: 40px;
+}
+.detail-microprocessors{
+  display: flex;
+  gap: 20px;
+}
+.detail-left img{
+  background-color: red;
+  border-radius: 24px;
+}
+.detail-right h2{
+  font-size: 32px;
+}
+.detail-right h3{
+  font-size: 24px;
+  
+}

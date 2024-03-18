@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans 3", sans-serif;
+}
+html{
+  height: 100%;
+}
+body{
+  margin: 0;
+  height: 100%;
+}
+main{
+  height: 100%;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  max-width: 1250px;
+  width: 100%;
+  padding: 0 20px;
+  display: block;
+  margin: 0 auto;
+}
+.flex{
+  display: flex;
+}
+.flex-cl{
+  flex-direction: column;
+}
+.flex-jc-c{
+  justify-content: center;
+}
+.flex-jc-sb{
+  justify-content: space-between;
+}
+.flex-ai-c{
+  align-items: center;
+}
+.flex-ai-sb{
+  align-items: space-between;
+}
+.gap2{
+  gap: 10px;
+}
+.gap4{
+  gap: 20px;
+}
+
+.p0{
+  padding: 0;
+}
+.p1{
+  padding: 5px;
+}
+.p2{
+  padding: 10px;
+}
+.p3{
+  padding: 15px;
+}
+.p4{
+  padding: 20px;
+}
+.p7{
+  padding: 40px;
+}
+.ptb7{
+  padding: 40px 0;
+}
+.m0{
+  padding: 0;
+}
+.m1{
+  margin: 5px;
+}
+.m2{
+  margin: 10px;
+}
+.m3{
+  margin: 15px;
+}
+.m4{
+  margin: 20px;
+}
+.m7{
+  margin: 40px;
+}
+.mb2{
+  margin-bottom: 10px;
+}
+.mb4{
+  margin-bottom: 20px;
+}
+.mtb2{
+  margin: 10px 0;
+}
+.mtb4{
+  margin: 20px 0;
+}
+.mtb7{
+  margin: 40px 0;
+}
+.mr-4{
+  margin-right: 20px;
+}
+.mt-8{
+  margin-top: 40px;
+}
+.mt2{
+  margin-top: 10px;
+}
+.mr2{
+  margin-right: 10px;
+}
+.mr4{
+  margin-right: 20px;
+}
+.ck-powered-by{
+  display: none;
+}
+ul{
+  padding-left: 20px;
+}
+.line{
+  width: 100%;
+  height: 3px;
+  background-color: var(--grey);
+  border-radius: 50px;
+}
